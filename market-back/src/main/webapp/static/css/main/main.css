@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+#north{
+	height: 55px;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(right,white 0,#b6e172 60%);
+	background: -moz-linear-gradient(right,white 0,#b6e172 60%);
+	background: -o-linear-gradient(right,white 0,#b6e172 60%);
+	background: linear-gradient(to right,white 0,#b6e172 60%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=white,endColorstr=#b6e172,GradientType=0);
+}
+
+#west{
+	width: 200px;
+}
+
+#south{
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 15px;
+}
+
+#userInfo{
+	float: right;
+	margin-right: 5px;
+	display: block;
+	margin-top: 17px;
+	font-size: 14px;
+}
+
+#userName{
+	color: green;
+}
+
+#exit{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#imgDiv{
+	display: block;
+	clear: both;
+	float: left;
+}
+
+#img_logo{
+	height: 50px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+/***解决tab的滚动条*/
+.panel-body{
+	overflow-Y:hidden;
+}
+
+.a-btn{
+	display:inline-block;
+	width:100px;
+	height:18px;
+	border:1px solid #CCC;
+	background:#ED4E4A;
+	text-decoration: none;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.a-btn:HOVER{
+	background: #F0A2A2;
+	color:yellow;
+}

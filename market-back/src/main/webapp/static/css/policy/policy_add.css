@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+#formBox{
+	padding:10px 40px 20px 40px;
+}
+
+#ff{
+	width: 100%;
+}
+
+
+#tab{
+	cellpadding: 5px;
+	width: 100%;
+}
+
+#tab tr, #tab tr td{
+	width: 100%;
+}
+
+#submit{
+	text-align:center;
+	padding:5px;
+}

@@ -1,0 +1,2 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<div id="south" data-options="region:'south'">版权 &copy; 2016 <a style="text-decoration: none;color:orange;font-weight:bold;" href="http://www.diandong100.com" target="_blank">点动创想 </a> 保留所有权利</div>

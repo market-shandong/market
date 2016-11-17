@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+#center{
+	background: url("../../images/bk.gif") repeat;
+}
+
+#wrapper{
+	padding: 20px 40px;
+}
+
+.caption{
+	color: blue;
+	padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.caption:HOVER {
+	color: orange;
+	cursor: default;
+}
+
+#price{
+	background-color: #FFFFCC;
+	border-radius: 10px;
+}
+
+#price:HOVER{
+	background-color:#CCFFCC;
+}
+
+.content{
+	padding-left: 20px;
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+.subcap{
+	color: #66CC33;
+}

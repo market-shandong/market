@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="AccountMapper">
+
+	<resultMap id="userMap" type="user">
+		<id 	property="userId" 		column="user_id"/>
+		<result property="userType" 	column="user_type"/>
+		<result property="userName" 	column="user_name"/>
+		<result property="userPassword" column="user_pass"/>
+		<result property="userStatus" 	column="user_status"/>
+		<result property="lastLogin" 	column="last_login"/>
+		<result property="userIp" 		column="user_ip"/>
+		<result property="userSkin" 	column="user_skin"/>
+	</resultMap>
+	
+	<!-- 根据用户名和密码获取用户 -->
+	<select id="getUserByNameAndPass" parameterType="pd" resultMap="userMap">
+		SELECT 
+			user_id,
+			user_type,  
+			user_name,
+			user_pass,
+			user_status,
+			last_login,
+			user_ip,
+			user_skin 
+		FROM 
+			t_user tu
+		WHERE
+			tu.user_name = #{user_name}
+		AND
+			tu.user_pass = #{user_pass}
+	</select>
+	
+	
+</mapper>
